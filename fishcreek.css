@@ -1,30 +1,47 @@
 <style>
-body {background-color: #FFFFFF; 
+* {box-sizing: border-box;}
+body {background-color: #5280C5;
+	background-image: "gradientblue.jpg";  
 	color: #003366; 
 	font-family: Ariel, Verdana, sans-serif; }
-header {background-color: #003366; 
-	background-image: url(fishcreeklogo.gif) no-repeat center;
+header {background-color: #000066; 
+	background-image: url(bigfish.gif) no-repeat center;
 	color: #F0F0F0;
-	text-align: center; 
-	font-family: Georgia, "Times New Roman", serif; }
+	text-align: center; }
 h1 {line-height: 250%; 
-	text-indent: 1em; }
-nav {font-weight: bold;
-	text-align: center;
-	background-color: #5280C5; 
+	text-indent: 1em;
+	font-size: 3em; 
+	padding: 0.2em;
+	text-shadow: #CCCCCC; }
+nav {float: left;
+	width: 180px;
+	font-weight: bold; 
 	padding: 5px;  }
-main {padding-left: 10px; 
-	padding-right: 10px; }
+nav ul{list-style-type: none; }
+nav a{text-decoration: none; }
+nav a:link {color: #000066; }
+nav a:visited {color: #5280C5; }
+nav a:hover {color: #3262A3; }
+main {background-color: #FFFFFF; 
+	padding-left: 10px; 
+	padding-right: 10px;
+	margin-left: 180px; 
+	padding-left: 2em;
+	padding-right: 2em; 
+	border: 1px; 
+	border-style: solid; 
+	border-color: #AEC3E3; }
 dt {color: #5280C5; 
 	font-size: 1.1em; 
 	font-weight: bold; 
 	font-family: Georgia, "Times New Roman", serif; }
-img {border: none;}
-footer nav {background-color: #0F0F0F}
+img {border: none; }
 footer {background-color: #AEC3E3
 	font-size: .70em; 
 	font-style: italic;
-	text-align: center; }
+	text-align: center; 
+	padding: 1em; 
+	margin-left: 180px; }
 #wrapper {width: 80%; 
 	min-width: 700px;
 	margin-right: auto; 
@@ -34,4 +51,5 @@ footer {background-color: #AEC3E3
 	color: #5380C5; 
 	font-family: Georgia, "Times New Roman", serif;
 	text-shadow: 1px 1px 1px #667}
+header, nav, main, footer {display: block; }
 </style>
